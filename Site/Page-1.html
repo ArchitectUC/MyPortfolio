@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Page-1.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery-1.9.1.min.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 6.4.4, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Great+Vibes:400">
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Site2"
+}</script>
+    <meta name="theme-color" content="#ff5a00">
+    <meta property="og:title" content="Page 1">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-path-to-root="./" data-include-products="true" class="u-body u-xl-mode" data-lang="en">
+    <section class="u-clearfix u-grey-5 u-section-1" id="sec-dbce">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h3 class="u-text u-text-1"><b>Automating Infrastructure on Google Cloud with Terraform</b><b></b>&nbsp;<br>
+        </h3>
+        <p class="u-text u-text-2" spellcheck="false">
+          <br>I chose to use the preset project to showcase my proficiency in utilizing the Google Cloud Console, terminal commands, and advanced editor operations. As part of a Google challenge lab designed for advanced learners, this project provided an ideal platform to demonstrate my skills. While Terraform was specified as the tool for the task, I embraced it as an opportunity to showcase my adaptability and expertise across various GCP interfaces.&nbsp;<br>
+          <br>Throughout the project, I effectively utilized these tools to create, deploy, and manage infrastructure on Google Cloud Platform. Additionally, I successfully integrated instances&nbsp;needs to be managed&nbsp;into the configuration and implemented necessary changes. Leveraging the Google Cloud Console and advanced editor operations, I imported and created multiple VM instances, designed a VPC network with dual subnetworks, and configured firewall rules to facilitate seamless communication between instances.<br>
+          <br>Furthermore, I established a Cloud Storage bucket as our remote backend. This project not only showcases my technical skills but also underscores my ability to adapt and excel within specified parameters, essential qualities for a GCP engineer operating at an advanced level.<b>&nbsp;</b>
+          <br>
+          <br> Console Access via Challange Lab from Google Cloud Skills Boost: Cloud Architect Learning Path: https://www.cloudskillsboost.google/paths/12&nbsp;&nbsp;<br>
+        </p>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-2" id="sec-942a">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <img class="custom-expanded u-image u-image-contain u-image-1" src="images/UMLscreenshot3.png" data-image-width="1462" data-image-height="1428">
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-5 u-section-3" id="sec-f32e">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h3 class="u-text u-text-1">Brief Explanation of the Process </h3>
+        <p class="u-text u-text-2" spellcheck="false"><b>Task 1: Create Configuration Files:&nbsp;</b><b></b>Set up Terraform configuration files with necessary variables (region, zone, project_id). Add Google Provider block in main.tf.Initialize Terraform.&nbsp;<br>
+          <br><b>Task 2: Import Infrastructure:&nbsp;</b><b></b>Identify existing instances in Google Cloud Console (tf-instance-1 and tf-instance-2). Write resource configurations in instances.tf. Import existing instances into Terraform. Apply changes.<b>&nbsp;</b>
+          <br>
+          <br><b>Task 3: Configure Remote Backend:&nbsp;</b><b></b>Create Cloud Storage bucket resource in storage.tf. Configure bucket with specific settings. Configure storage bucket as remote backend in main.tf. Initialize Terraform and migrate existing state data.<b>&nbsp;</b>
+          <br>
+          <br><b>Task 4: Modify and Update Infrastructure:&nbsp;</b><b></b>Modify existing instances to use e2-standard-2 machine type. Add a new instance (tf-instance-187533) with e2-standard-2 machine type. Initialize Terraform and apply changes.<b>&nbsp;</b>
+          <br>
+          <br><b>Task 5: Destroy Resources:&nbsp;</b><b></b>Remove third instance (tf-instance-187533) from configuration files. Initialize Terraform and apply changes to destroy the resource.<b>&nbsp;</b>
+          <br>
+          <br><b>Task 6: Use Module from Registry:&nbsp;</b><b></b>Add network module from Terraform Registry to main.tf. Specify configurations for VPC and subnets. Update instance configurations to connect to respective subnets. Initialize Terraform and apply changes.<b>&nbsp;</b>
+          <br>
+          <br><b>Task 7: Configure Firewall:&nbsp;</b><b></b>Create firewall rule resource to permit ingress connections on TCP port 80. Initialize Terraform and apply changes.<br>
+          <br>
+          <br>
+          <span style="font-size: 1.125rem; font-weight: 700;">-Project Files</span>:&nbsp;<span style="font-size: 1.125rem;" class="u-text-palette-4-dark-1">
+            <a href="https://github.com/ArchitectUC/GCP-Terraform" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" target="_blank">https://github.com/ArchitectUC/GCP-Terraform</a>
+          </span>
+          <br>
+        </p>
+        <a href="https://github.com/ArchitectUC/GCP-Terraform/blob/main/GCP%20Terraform-readme.pdf" class="u-btn u-button-style u-none u-text-hover-palette-2-base u-text-palette-1-base u-btn-2" target="_blank">Read More&nbsp;<span class="u-icon u-text-palette-1-base"><svg class="u-svg-content" viewBox="0 -32 426.66667 426" style="width: 1em; height: 1em;"><path d="m213.332031 181.667969c0 4.265625-1.277343 8.53125-3.625 11.730469l-106.667969 160c-3.839843 5.761718-10.238281 9.601562-17.707031 9.601562h-64c-11.730469 0-21.332031-9.601562-21.332031-21.332031 0-4.269531 1.28125-8.535157 3.625-11.734375l98.773438-148.265625-98.773438-148.269531c-2.34375-3.199219-3.625-7.464844-3.625-11.730469 0-11.734375 9.601562-21.335938 21.332031-21.335938h64c7.46875 0 13.867188 3.839844 17.707031 9.601563l106.667969 160c2.347657 3.199218 3.625 7.464844 3.625 11.734375zm0 0"></path><path d="m426.667969 181.667969c0 4.265625-1.28125 8.53125-3.628907 11.730469l-106.664062 160c-3.839844 5.761718-10.242188 9.601562-17.707031 9.601562h-64c-11.734375 0-21.335938-9.601562-21.335938-21.332031 0-4.269531 1.28125-8.535157 3.628907-11.734375l98.773437-148.265625-98.773437-148.269531c-2.347657-3.199219-3.628907-7.464844-3.628907-11.730469 0-11.734375 9.601563-21.335938 21.335938-21.335938h64c7.464843 0 13.867187 3.839844 17.707031 9.601563l106.664062 160c2.347657 3.199218 3.628907 7.464844 3.628907 11.734375zm0 0"></path></svg></span>
+        </a>
+        <p class="u-text u-text-3" spellcheck="false">
+          <span style="font-weight: 700;">-Explanation of the Process​ in Detail</span>&nbsp;<br>
+          <span style="font-weight: 700;"></span>
+        </p>
+      </div>
+    </section>
+    <section class="u-border-2 u-border-grey-5 u-clearfix u-grey-5 u-section-4" id="sec-d9a1">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h4 class="u-text u-text-palette-1-base u-text-1"> Video Recording of the Terraform Project&nbsp;</h4>
+        <div class="u-video u-video-contain u-video-1">
+          <div class="embed-responsive embed-responsive-1">
+            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/OuosfL5LuZk?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <footer class="u-clearfix u-footer u-palette-2-dark-1" id="sec-9cb6"><div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-align-center u-container-style u-group u-group-1">
+          <div class="u-container-layout u-valign-middle u-container-layout-1">
+            <p class="u-small-text u-text u-text-palette-5-light-2 u-text-variant u-text-1">Thanks for visiting my portfolio site.<br>Have a wonderful day!
+            </p>
+          </div>
+        </div>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/html5-template" target="_blank">
+        <span>Free HTML5 Template</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="https://nicepage.com/website-builder" target="_blank">
+        <span>Best Free Website Builder</span>
+      </a>. 
+    </section>
+  
+</body></html>
